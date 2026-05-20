@@ -10,15 +10,15 @@
 
     <form id="form-task">
       <input id="campo-task" placeholder="Cosa devi fare?" />
-      <button type="submit" id="addTask">Aggiungi</button>
+      <button type="submit">Aggiungi</button>
     </form>
 
     <p id="errore" class="errore"></p>
 
     <div class="filtri">
-      <button data-filtro="tutti" class="attivo">Tutti</button>
-      <button data-filtro="attivi">Attivi</button>
-      <button data-filtro="completati">Completati</button>
+      <button id="tutti" data-filtro="tutti" class="attivo">Tutti</button>
+      <button id= "attivi" data-filtro="attivi">Attivi</button>
+      <button id= "completati" data-filtro="completati">Completati</button>
     </div>
 
     <ul id="lista-task"></ul>

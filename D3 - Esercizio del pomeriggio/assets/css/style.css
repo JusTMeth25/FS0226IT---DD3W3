@@ -67,3 +67,24 @@ li {
    - testo barrato sui task completati
    - eventuali stati visivi
 */
+li.completato.testo {
+  text-decoration: line-through;
+  color: #65697a;
+}
+
+li .testo {
+  flex: 1;
+}
+
+li.button.elimina {
+  padding: 4px 12px;
+  font-size: 13px;
+  border-color: #c23b3b;
+  color: #c23b3b;
+  background: #ffffff;
+}
+
+li button.elimina:hover {
+  background: #c23b3b;
+  color: #ffffff;
+}
