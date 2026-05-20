@@ -92,3 +92,8 @@ li button {
   padding: 4px 10px;
   font-size: 13px;
 }
+
+p {
+  color: red;
+  font-weight: bold;
+}

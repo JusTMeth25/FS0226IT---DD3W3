@@ -26,6 +26,62 @@
             <h2 id="sumResult">&nbsp;</h2>
             <h2 id="otherSum">&nbsp;</h2>
         </div>
+        <div class="form">
+            <form>
+                <input type="text" id="userNameInput" name="userNameInput">
+                <h3 id="inputNameValue">&nbsp;</h3>
+                <input type="text" id="userSurnameInput" name="userSurnameInput">
+                <h3 id="inputSurnameValue">&nbsp;</h3>
+                <select id="choose">
+                    <option value="" selected></option>
+                    <option value="primo">Prima scelta</option>
+                    <option value="secondo">Seconda scelta</option>
+                    <option value="terzo">Terza scelta</option>
+                    <option value="quarto">Quarta scelta</option>
+                </select>
+
+                <h3 id="chooseValue">&nbsp;</h3>
+                <input type="checkbox" name="myCheck" id="myCheck">
+                <label for="myCheck">CHECKBOX</label>
+                <h3 id="checkValue">&nbsp;</h3>
+            </form>
+        </div>
+        <div class="form">
+            <form>
+                <fieldset>
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="myName">NOME</label>
+                                <input type="text" id="myName" name="myName">
+                                <p id="errorName" class="error">&nbsp;</p>
+                            </td>
+                            <td>
+                                <label for="mySurname">COGNOME</label>
+                                <input type="text" id="mySurname" name="mySurname">
+                                <p id="errorSurname" class="error">&nbsp;</p>
+                            </td>
+                        <tr>
+                            <td>
+                                <label for="myAge">ETA'</label>
+                                <input type="number" id="myAge" name="myAge">
+                                <p id="errorAge" class="error">&nbsp;</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="myEmail">Email</label>
+                                <input type="text" id="myEmail" name="myEmail">
+                                <p id="errorEmail" class="error">&nbsp;</p>
+                            </td>
+                        </tr>
+                        </tr>
+                    </table>
+                    <button type="submit" id="sendForm">INVIA</button>
+                    <button type="reset">CANCELLA</button>
+                </fieldset>
+            </form>
+        </div>
     </div>
 
 
